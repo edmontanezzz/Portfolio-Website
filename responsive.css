@@ -1,0 +1,344 @@
+@media only screen and (max-width: 768px) {
+    .navbar {
+        position: fixed;
+        top: 10px;
+        right: 10px;
+        z-index: 1000;
+    }
+    section {
+        margin: 50px;
+        padding: 50px;
+    }
+    .menu-items a {
+        font-size: 25px;
+    }
+    .metittle {
+        font-size: 29px;
+    }
+    .text-me {
+        flex: 1;
+        margin-right: 30px;
+        font-family: sans-serif;
+        font-size: 19px;
+    }
+    
+    .image-container {
+        flex-shrink: 0; /* Prevent image from growing */
+    }
+    
+    .small-image {
+        max-width: 150px; /* Set a maximum width for the image */
+        height: auto; /* Maintain aspect ratio */
+    }
+    .about-content {
+        display: flex;
+        flex-direction: column; /* Change flex-direction to column */
+        justify-content: center; /* Center vertically */
+        align-items: center; /* Center horizontally */
+        text-align: left; /* Center text */
+    }
+    
+    .text-container {
+        margin-bottom: 20px; /* Add margin at the bottom */
+    }
+    
+    .about-image img {
+        max-width: 167px; /* Set a maximum width for the image */
+        height: auto; 
+        border-radius: 10px;
+    }
+    
+    .forabout, .edu {
+        font-family: sans-serif;
+        font-size: 29px;
+        margin-bottom: 10px; /* Add margin between headings and text */
+    }
+    
+    .about-text {
+        font-family: sans-serif;
+        font-size: 19px;
+        margin-right: 30px; /* Optional: Adjust margin if needed */
+    }
+    
+    ul li {
+        font-size: 19px; 
+    }
+    
+    
+    
+    .toolimages {
+        display: flex; 
+        justify-content: center; 
+        flex-wrap: wrap; 
+    }
+    
+    .toolimages img {
+        width: 80px; 
+        height: auto; 
+        margin: 20px; 
+        transition: transform 0.2s ease-in-out;
+    }
+    
+    .tool {
+        font-family: sans-serif;
+        font-size: 29px;
+    }
+    
+
+    #contact {
+        background-color:  #f5f5f5; 
+        display: flex;
+        align-items: center; 
+        justify-content: space-between; 
+        padding: 20px; 
+        margin: 0; /* Remove margin */
+        box-sizing: border-box; /* Include padding in width calculation */
+        min-height: 100vh; /* Ensure section takes up at least the full viewport height */
+        min-width: 100vw;
+    }
+    
+    
+    .contact-text {
+        padding: 100px; 
+        flex: 1;
+        margin-right: 1px; /* Add margin to the right side to create space */
+    }
+    
+    .contact-form {
+        flex: 1; /* Take up remaining space */
+        margin-left: 1px; /* Add some space between the text and the form */
+        margin-top: 19px; /* Adjust margin to bring form closer to text */
+    }
+    
+    .contact-text h2 {
+        font-size: 29px;
+        font-family: sans-serif;
+        margin-bottom: 9px; /* Adjust margin to bring h2 closer to p */
+    }
+    
+    .contact-text p {
+        font-size: 19px;
+        font-family: sans-serif;
+        margin-bottom: 9px; /* Adjust margin to bring p closer to .social-icon */
+    }
+    
+    .social-icon {
+        font-size: 19px;
+        color: #000000;
+        padding: 7px;
+    }
+    
+    .contact-form form {
+        padding: 0px; /* Add padding inside the form */
+        width: 200px; /* Set the width of the form */
+    }
+    
+    .contact-form .special {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #000000;
+        margin-top: 7px;
+        margin-bottom: 15px;
+        resize: none;
+        border-radius: 5px;
+        height:20px; 
+        font-family: sans-serif;
+    }
+    
+    .contact-form textarea {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #000000;
+        margin-top: 7px;
+        margin-bottom: 15px;
+        resize: none;
+        border-radius: 5px;
+        height: 200px; 
+        font-family: sans-serif;
+    }
+    .contact-form input[type="submit"] {
+        background-color: rgb(0, 0, 0);
+        color: white; 
+        border: none; 
+        padding: 19px; 
+        cursor: pointer; 
+        border-radius: 5px;
+        padding: 7px 7px;
+        font-family: sans-serif;
+    }
+}
+
+
+
+
+
+@media only screen and (max-width: 480px) {
+    .navbar {
+        position: fixed;
+        top: 10px;
+        right: 10px;
+        z-index: 1000;
+    }
+    section {
+        margin: 30px;
+        padding: 30px;
+    }
+    .menu-items a {
+        font-size: 25px;
+    }
+    .metittle {
+        font-size: 25px;
+    }
+    .text-me {
+        flex: 1;
+        margin-right: 10px;
+        font-family: sans-serif;
+        font-size: 18px;
+    }
+    
+    .image-container {
+        flex-shrink: 0; /* Prevent image from growing */
+    }
+    
+    .small-image {
+        max-width: 130px; /* Set a maximum width for the image */
+        height: auto; /* Maintain aspect ratio */
+    }
+    .about-content {
+        display: flex;
+        flex-direction: column; /* Change flex-direction to column */
+        justify-content: center; /* Center vertically */
+        align-items: center; /* Center horizontally */
+        text-align: left; /* Center text */
+    }
+    
+    .text-container {
+        margin-bottom: 20px; /* Add margin at the bottom */
+    }
+    
+    .about-image img {
+        max-width: 150px; /* Set a maximum width for the image */
+        height: auto; 
+        border-radius: 10px;
+    }
+    
+    .forabout, .edu {
+        font-family: sans-serif;
+        font-size: 25px;
+        margin-bottom: 10px; /* Add margin between headings and text */
+    }
+    
+    .about-text {
+        font-family: sans-serif;
+        font-size: 18px;
+        margin-right: 30px; /* Optional: Adjust margin if needed */
+    }
+    
+    ul li {
+        font-size: 18px; 
+    }
+    
+    
+    
+    .toolimages {
+        display: flex; 
+        justify-content: center; 
+        flex-wrap: wrap; 
+    }
+    
+    .toolimages img {
+        width: 70px; 
+        height: auto; 
+        margin: 20px; 
+        transition: transform 0.2s ease-in-out;
+    }
+    
+    .tool {
+        font-family: sans-serif;
+        font-size: 25px;
+    }
+    
+
+    #contact {
+        background-color:  #f5f5f5; 
+        display: flex;
+        align-items: center; 
+        justify-content: space-between; 
+        padding: 20px; 
+        margin: 0; /* Remove margin */
+        box-sizing: border-box; /* Include padding in width calculation */
+        min-height: 100vh; /* Ensure section takes up at least the full viewport height */
+        min-width: 100vw;
+    }
+    
+    
+    .contact-text {
+        padding: 100px; 
+        flex: 1;
+        margin-right: 1px; /* Add margin to the right side to create space */
+    }
+    
+    .contact-form {
+        flex: 1; /* Take up remaining space */
+        margin-left: 1px; /* Add some space between the text and the form */
+        margin-top: 19px; /* Adjust margin to bring form closer to text */
+    }
+    
+    .contact-text h2 {
+        font-size: 25px;
+        font-family: sans-serif;
+        margin-bottom: 9px; /* Adjust margin to bring h2 closer to p */
+    }
+    
+    .contact-text p {
+        font-size: 18px;
+        font-family: sans-serif;
+        margin-bottom: 9px; /* Adjust margin to bring p closer to .social-icon */
+    }
+    
+    .social-icon {
+        font-size: 18px;
+        color: #000000;
+        padding: 7px;
+    }
+    
+    .contact-form form {
+        padding: 0px; /* Add padding inside the form */
+        width: 150px; /* Set the width of the form */
+    }
+    
+    .contact-form .special {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #000000;
+        margin-top: 7px;
+        margin-bottom: 15px;
+        resize: none;
+        border-radius: 5px;
+        height:20px; 
+        font-family: sans-serif;
+    }
+    
+    .contact-form textarea {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #000000;
+        margin-top: 7px;
+        margin-bottom: 15px;
+        resize: none;
+        border-radius: 5px;
+        height: 200px; 
+        font-family: sans-serif;
+    }
+    .contact-form input[type="submit"] {
+        background-color: rgb(0, 0, 0);
+        color: white; 
+        border: none; 
+        padding: 19px; 
+        cursor: pointer; 
+        border-radius: 5px;
+        padding: 7px 7px;
+        font-family: sans-serif;
+    }
+    
+}

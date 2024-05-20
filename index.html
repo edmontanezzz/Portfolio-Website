@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="stylesheet" type="text/css" href="responsive.css">
+    <script src="index.js"></script>
+    <link rel="icon" href="icons8-e-67.png" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Ed Montanez</title>
+</head>
+
+<div class="navbar">
+    <div class="menu-toggle" onclick="toggleMenu()">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+    </div>
+    <div class="menu-overlay" onclick="toggleMenu()"></div> 
+<div class="menu-items-container">
+    <div class="menu-items">
+        <a href="#me">Me</a>
+        <a href="#about">About</a>
+        <a href="#toolkit">Toolkit</a>
+        <a href="#contact">Contact</a>
+    </div>
+</div>
+</div>
+
+<body>
+    <section id="hero" class="animate-me">
+    <div class="hero-section">
+        <img src="https://assets-global.website-files.com/5a9ee6416e90d20001b20038/630e43e5393ddceeb2d96c05_sf4eLO7Aq4n9GuiTV05ZIihtdHp3Kq6ACQozmFDhd4MQdi-q3K9wUO30K566VtGn4VjH4GsCQ0zyOqggF-8TpjnkNEFDW1VExTjGdYEY6mgDRO1FrR5IRsNS7u1jNXzUOYqjp6wU7kaeN5-OU5LoRN8.jpeg" alt="blueberries">
+        <div class="text">WELCOME TO MY PORTFOLIO WEBSITE</div>
+        <div id="scrollDownArrow" class="scroll-down-arrow hidden">
+            <span></span>
+        </div>
+    </div>
+</section>
+
+<section id="me">
+    <div class="text-me">
+        <h2 class="metittle">Hello! I'm Eduardo.👋</h2>
+        <p>A 17-year-old aspiring software and website designer and developer, I am driven by enthusiasm for crafting innovative digital solutions that captivate and empower users, igniting my passion for creating immersive online experiences. 🌟</p>
+    </div>
+    <div class="image-container">
+        <img src="boy.png" alt="boy" class="small-image"> 
+    </div>
+</section>
+
+
+<section id="about">
+    <div class="about-content">
+        <div class="text-container">
+            <h2 class="forabout">About Me</h2>
+            <div class="about-text">
+                <p> Hey there! Thanks for taking the time to read this far!👏 
+                    I'm a 17-year-old aspiring software and website designer/developer, 
+                    currently passionate about honing my skills in crafting captivating digital experiences.  
+                    I currently attend East Valley institute of technology.</p>
+                    <p> When I'm not coding, you'll often find me immersed in the world of swimming🌊 or phtography, <a class="pcs" href="gallery.html"> click here </a>to se some pictures!. I also love to travel and see new places! </p>
+                    <h2 class="edu">Education 📚</h2>
+                    <h3 class="edutext"> <a href="https://mtnview.mpsaz.org/" target="_blank">Mountain View High school</a></h3>
+                    <ul><li> Graduate 2025 </li></ul>
+                    <h3 class="edutext"> <a href="https://www.evit.edu/" target="_blank">East Valley Institute of Technology </a></h3>
+                    <ul><li> Software and app Design 2024</li><li>Networking Security 2025</li></ul>
+                </div>
+        </div>
+        <div class="about-image">
+            <img onclick="displayRandomFact()" src="ed.jpg" alt="me"> 
+        </div>
+    </div>
+</section>
+
+<section id="toolkit">
+    <h2 class="tool"> My Toolkit 💻</h2>
+    <div class="toolimages">
+        <a href="https://www.credly.com/badges/7a164f13-d3b0-4714-8e09-3480f1da915a" target="_blank">
+            <img class="css" src="icons8-css-80 (1).png" alt="CSS">
+        </a>
+        <a href="https://www.credly.com/badges/7a164f13-d3b0-4714-8e09-3480f1da915a" target="_blank">
+            <img class="html" src="icons8-html-80 (1).png" alt="HTML">
+        </a>
+        <img class="python" src="icons8-c-sharp-80.png" alt="c#">
+        <a href="https://www.credly.com/badges/9068b14a-f93f-429b-9c9b-cbe9e6dae6e2" target="_blank">
+            <img class="js" src="icons8-javascript-64 (1).png" alt="Javascript">
+        </a>
+        <a href="https://www.credly.com/badges/30551be4-ab02-4278-ba1c-c122a80b9ee2" target="_blank">
+            <img class="python" src="icons8-python-80.png" alt="Python">
+        </a>
+    </div>
+</section>
+
+<section id="contact">
+    <div class="contact-text">
+        <h2>Let's Connect 📫</h2>
+        <p>Follow me on my socials or contact me here!</p>
+        <div class="social-icons">
+            <a href="https://www.instagram.com/ed.montanezzz?igsh=dnF5ODM0bThvNmNv&utm_source=qr" class="social-icon" target="_blank"><i class="fa fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/ed-montanez-7594712b0/" class="social-icon" target="_blank"><i class="fa fa-linkedin"></i></a>
+            <a href="https://github.com/edmontanezzz" class="social-icon" target="_blank"><i class="fa fa-git"></i></a>
+        </div>
+    </div>
+    <div class="contact-form">
+        <form>
+            <textarea id="name" name="name" class="special" placeholder="Name"></textarea><br>
+            <textarea id="email" name="email" class="special" placeholder="Email"></textarea><br><br>
+            <textarea id="message" name="message" placeholder="Message"></textarea><br><br>
+            <input type="submit" value="Send Message">
+        </form>
+    </div>
+</section>
+<!-- 
+<div id="custom-modal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <p>Welcome To My Portfolio Website!</p>
+    </div>
+</div> -->
+<footer id="footer" class="hidden">
+    <p>&copy; 2024 My Portfolio Website </p>
+    <p> Developed and Designed with love 💕 Eduardo Montanez</p>
+</footer>
+
+
+</body>
+</html>
